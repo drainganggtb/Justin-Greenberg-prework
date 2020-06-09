@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    color:black;
+}
+.nav {
+  background-color:grey;
+  text-align:center;
+  margin-bottom:30px;
+  height:30px;
+  line-height:30px;
+}
+
+#left {
+    text-align: center;
+    background-color:blue;
+  float:left;
+  width:50%;
+  height:550px;
+  text-align:center;
+  line-height: 550px;
+  
+}
+#right {
+    text-align:center;
+    background-color: red;
+  width: 25%;
+  float:right;
+  height:550px;
+  line-height:550px;
+
+
+}
+
+#footer {
+    position:absolute;
+    left:0px;
+  right:0px;
+    bottom:0px;
+    width:100%;
+    text-align:center;
+    background-color:green;
+  height:30px;
+  line-height:30px;
+
+}
