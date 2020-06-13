@@ -1,0 +1,18 @@
+body {
+  background: url("https://source.unsplash.com/twukN12EN7c/1920x1080");
+}
+.topfixedbar{
+  position:fixed;
+  width:100%;
+  background:#fff;
+  height:80px;
+}
+.card {
+  margin-top:20px;
+}
+.media,.moretext, #text1 {
+  margin-left: 30px;
+}
+.media {
+  margin-top: 40px;
+}
