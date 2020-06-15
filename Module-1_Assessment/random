@@ -1,23 +1,39 @@
-  <nav class="navbar navbar-expand-sm navbar-dark bg-white">
-        <a href="#" class="navbar-brand">Academind</a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-white mx-auto" style="width:960px;">
+        <a href="#" class="navbar-brand" style= "font-weight:bold; background-color:#4aaaa5; color:white; font-family:'Georgia', Times, Times New Roman, serif; padding:15px;">Justin Greenberg</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Products</a>
-                </li>
+                   <a href="index.html" class="nav-link">About</a></li>
+            <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"></li> 
+                    <a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </div>
 
     </nav>
 
 
+    <nav class="navbar navbar-expand-sm navbar-light bg-white mx-auto">
+        <a href="#" class="navbar-brand" style= "font-weight:bold; background-color:#4aaaa5; color:white; font-family:'Georgia', Times, Times New Roman, serif; padding:15px;">Justin Greenberg</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                   <a href="index.html" class="nav-link">About</a></li>
+            <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"></li> 
+                    <a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
 
+    </nav>
 
     <nav class="navbar navbar-light navbar-expand-sm bg-white mx-auto" style="width:960px;">
         <a href="#" class="navbar-brand font-weight-bold" style= "background-color:#4aaaa5; color:white; font-family:'Georgia', Times, Times New Roman, serif; padding:15px;"> Justin Greenberg</a>
@@ -35,3 +51,21 @@
             </ul>
         </div>
     </nav>
+
+    <!--portfolio-->
+     <div class="row">
+            <div class="col-md-4">
+                <img src="assets\images\aurora borealis.jfif" height="175 px" width="250 px" alt="Responsive image1">
+                <img src="assets\images\forest fog.jpg" height="175 px" width="250 px"  alt="Responsive image2"> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets\images\mountain canyon.jfif" height="175 px" width="250 px"  alt="Responsive Image3">
+                <img src="assets\images\clouds mountain smoke.jpg" height="175 px" width="250 px" alt="Responsive Image5">
+            </div>
+        <div class="row"></div>
+            <div class="col md-4">
+                <img src="assets\images\vernazza italy.jfif" height="175 px" width="250 px"  alt="Responsive Image4">
+            </div>
+        </div>
