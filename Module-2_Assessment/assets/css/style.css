@@ -1,0 +1,54 @@
+body {
+    background: url(../images/background.jpg);
+    width: 100%;
+}
+.header {
+    background: url(../images/headfoot.jpg);
+    border-bottom: 10px solid green;
+    width: 100%;
+    height:150px;
+    margin-bottom: 2%;
+}
+.game-content {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    min-height: 500px;
+}
+.game-content th, .game-content td {
+    border: 5px dotted black;
+    width: 1%;
+}
+
+#youwin, #gameover {
+    margin:auto;
+}
+.hangTitle {
+    font-size:2em;
+}
+main {
+    background-color:white;
+    border-radius:10px;
+    padding: 20px;
+    max-width:70% !important;
+    min-height:500px;
+    margin-bottom:5%;
+}
+.footer {
+    background: url(../images/headfoot.jpg);
+    position: fixed;
+    border-top: 10px solid green;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+#pressKeyTryAgain {
+    color:red;
+}
+#currentWord {
+    letter-spacing: 10px;
+    font-size: 1.5em;
+}
