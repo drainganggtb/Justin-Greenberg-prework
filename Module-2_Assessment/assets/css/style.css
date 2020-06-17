@@ -9,6 +9,7 @@ body {
     height:150px;
     margin-bottom: 2%;
 }
+
 .game-content {
     text-align: center;
     font-size: 2em;
@@ -20,11 +21,14 @@ body {
     width: 1%;
 }
 
-#youwin, #gameover {
+#youwin-image, #gameover-image {
     margin:auto;
+    width:250px;
 }
 .hangTitle {
     font-size:2em;
+    font-family: 'Londrina Solid', cursive;
+
 }
 main {
     background-color:white;
@@ -33,6 +37,7 @@ main {
     max-width:70% !important;
     min-height:500px;
     margin-bottom:5%;
+    font-family: 'Londrina Solid', cursive;
 }
 .footer {
     background: url(../images/headfoot.jpg);
@@ -46,7 +51,7 @@ main {
     margin-bottom: 0px;
 }
 #pressKeyTryAgain {
-    color:red;
+    color: #f5a442;
 }
 #currentWord {
     letter-spacing: 10px;
